@@ -1,0 +1,23 @@
+{
+  "name": "adminpanel-backend",
+  "version": "0.1.0",
+  "description": "Admin panel backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha .",
+    "start": "node ."
+  },
+  "author": "Mariano Heller",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "date-fns": "^1.29.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
